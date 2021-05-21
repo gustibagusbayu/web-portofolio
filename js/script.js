@@ -29,7 +29,7 @@ gsap.from('.home_photo', {opacity: 0, duration: 0.6, delay: 0.3, x: -100})
 gsap.from('.home_intro h1', {opacity: 0, duration: 0.6, delay: 0.5, x: 100}) 
 gsap.from('.home_intro h2', {opacity: 0, duration: 0.6, delay: 0.3, x: 100}) 
 gsap.from('.home_intro p', {opacity: 0, duration: 0.6, delay: 0.7, x: 100})
-gsap.from('.home_social a', {opacity: 0, duration: 1, delay: 0.9, y: 30, stagger: 0.3})  
+gsap.from('.home_social a', {opacity: 0, duration: 1, delay: 1.2, y: 30, stagger: 0.2})  
 
 // project
 gsap.from('.project h1', {scrollTrigger:'.project h1', opacity: 0, duration: 1, delay: 1, x: -30}) 
