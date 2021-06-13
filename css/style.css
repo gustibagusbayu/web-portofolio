@@ -424,7 +424,8 @@ ul{
         margin-left: 8px;
         font-size: calc(var(--normal-font-size) * 0.8);
     }
-    .home_social{
+    .home_social a{
+        margin-right: 5px;
         margin-left: 8px;
     }
 }
@@ -511,7 +512,7 @@ ul{
 /* contact */
 @media screen and (max-width: 768px){
     .contact_social a{
-        margin-right: 20px;
+        margin-right: 10px;
     }
     .contact .signed_logo{
         margin-top: 50px;
